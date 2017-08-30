@@ -52,7 +52,7 @@ public class FlowerStore {
                 CountMinusOne(RoseCount);
                 IPlusOne();
                 setVallet(rose.cost);
-                showVallet();
+                //showVallet();
             }
 
             if (ChamomileCount>0){
@@ -60,7 +60,7 @@ public class FlowerStore {
                 CountMinusOne(ChamomileCount);
                 IPlusOne();
                 setVallet(chamomile.cost);
-                showVallet();
+               // showVallet();
             }
 
             if (TulipCount>0){
@@ -68,7 +68,7 @@ public class FlowerStore {
                 CountMinusOne(TulipCount);
                 IPlusOne();
                 setVallet(tulip.cost);
-                showVallet();
+               // showVallet();
             }
 
         }
